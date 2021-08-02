@@ -1,3 +1,5 @@
+// you can see what is your weight of the score from this programme
+
 #include <iostream>
 using namespace std;
 
