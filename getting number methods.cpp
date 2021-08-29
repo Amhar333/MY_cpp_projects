@@ -54,6 +54,18 @@ int main()
     cout << c2 << endl;
     cout << e2 << endl;
     cout << g2 << endl;
-    cout << i2 << endl;
+    cout << i2 << endl << endl;
+    
+    
+//     method 3 (getting last to first)
+    int m = num % 10 / 1;
+    int n = num % 100 / 10;
+    int o = num % 1000 / 100;
+    int p = num % 10000 / 1000;
+    int q = num % 100000 / 10000;
+    
+    cout << "Method 3\n";
+    cout << m << "\n" << n << "\n" << o << "\n" << p << "\n" << q << "\n" ;
+    
     return 0; 
 } /* main */ 
