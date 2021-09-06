@@ -41,3 +41,38 @@ int main()
     return 0;
 } 
 // main function
+
+
+
+// ------------------------------------------------------------------------------------
+
+// by thecodemonster
+
+#include <iostream>
+// #include <cmath>
+using namespace std;
+
+// main function
+int main()
+{
+//     int x;
+//     cout << "Enter name: ";
+//     cin >> 
+    char name[] = {'A', 'm', 'h', 'a', 'r'};
+    
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << name[i] << "  ";
+    }
+    cout << endl;
+    
+    for (int i = 4; i >= 0; i--)
+    {
+        cout << name[i] << "  ";
+    }
+    
+    
+        
+    return 0;
+} 
+// main function
