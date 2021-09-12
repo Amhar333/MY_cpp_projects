@@ -30,11 +30,19 @@ int main()
         while (i <= 4) // 4 is representing to four digit
         {
             digit = num % x / y;
-            cout << digit;
+            cout << digit << endl;
             x = x * 10;
             y = y * 10;
             i++;
         }
+    }
+    cout << endl ;
+    
+//     third method - using forloop
+    for (int a = 0; a < 4; a++)
+    {
+        digit = num % x / y;
+        cout << digit << endl;
     }
     return 0;
 } 
