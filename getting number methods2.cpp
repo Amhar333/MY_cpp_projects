@@ -43,6 +43,8 @@ int main()
     {
         digit = num % x / y;
         cout << digit << endl;
+        x *= 10;
+        y *= 10;
     }
     return 0;
 } 
